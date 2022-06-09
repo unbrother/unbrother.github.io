@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "JJMM"
+  image: "logo.png"
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  navbar:
+    background: light
+    logo: logo.png
+    title: false
+    collapse-below: lg
+    left:
+      - text: Overview
+        href: index.qmd
+      - text: Work
+        href: work.qmd
+      - text: Education
+        href: education.qmd
+      - text: Connect
+        href: contact.qmd
+      - text: About me
+        href: about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
