@@ -11,8 +11,7 @@ editor: source
 ::: {.hero-image .hero-image-left}
 ![](images/hero_left.png)
 :::
-git remote rm origin
-git remote add origin https://github.com/unbrother/unbrother.github.io.git
+
 ::: content-block
 # J. Julian Mendoza
 
