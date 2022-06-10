@@ -9,7 +9,7 @@ editor: source
 
 ::: hero-banner
 ::: {.hero-image .hero-image-left}
-![](images/hero_left.png)
+![](images/fig2.png)
 :::
 
 ::: content-block
@@ -83,19 +83,23 @@ Project 4
 
 ::: {#hello-quarto-tabcontent .tab-content}
 ::: {#project1 .tab-pane .fade .show .active role="tabpanel" aria-labelledby="project1-tab"}
-## A ver
+## Average travel time to AIFA (Felipe Ángeles International Airport)
 
-Weave together narrative text and code to produce elegantly formatted output. Quarto documents are fully reproducible. Use markdown with code cells executed via Jupyter (shown below) or render existing Jupyter notebooks.
+This small project consisted in creating connections with Google Maps Api to get routing requests with travel times from each of the municipalities in Mexico City to the recently built Felipe Ángeles International Airport (AIFA).
+
+Proyecto pequeño en donde se utilizó la conexión con la API de Google Maps para realizar consultas de tiempos de viaje desde las alcaldías de la Ciudad de México hacia el Aeropuerto Internacional Felipe Ángeles (AIFA).
 
 ::: grid
 ::: {.g-col-lg-6 .g-col-12}
 
-Aquí va el texto?
+::: {.hello-output .g-col-lg-6 .g-col-12}
+![](images/map.png)
+:::
 
 :::
 
 ::: {.hello-output .g-col-lg-6 .g-col-12}
-![](images/hello-jupyter.png)
+![](images/avg_t.png)
 :::
 :::
 :::
@@ -105,33 +109,9 @@ Quarto is a multi-language, next generation version of R Markdown from RStudio, 
 
 ::: grid
 ::: {.g-col-lg-6 .g-col-12}
-```` markdown
----
-title: "ggplot2 demo"
-author: "Norah Jones"
-date: "5/22/2021"
-format: 
-  html:
-    fig-width: 8
-    fig-height: 4
-    code-fold: true
----
 
-## Air Quality
+Aquí va algo de texto
 
-@fig-airquality further explores the impact of temperature on ozone level.
-
-```{{r}}
-#| label: fig-airquality
-#| fig-cap: Temperature and ozone level.
-#| warning: false
-library(ggplot2)
-ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess"
-)
-```
-````
 :::
 
 ::: {.hello-output .g-col-lg-6 .g-col-12}
@@ -145,34 +125,9 @@ Combine markdown and Julia code to create dynamic documents that are fully repro
 
 ::: grid
 ::: {.g-col-lg-6 .g-col-12}
-```` markdown
----
-title: "Plots Demo"
-author: "Norah Jones"
-date: "5/22/2021"
-format:
-  html:
-    code-fold: true
-jupyter: julia-1.7
----
 
-## Parametric Plots
+Aquí va algo de texto
 
-Plot function pair (x(u), y(u)). 
-See @fig-parametric for an example.
-
-```{{julia}}
-#| label: fig-parametric
-#| fig-cap: "Parametric Plots"
-using Plots
-plot(sin, 
-     x->sin(2x), 
-     0, 
-     2π, 
-     leg=false, 
-     fill=(0,:lavender))
-```
-````
 :::
 
 ::: {.hello-output .g-col-lg-6 .g-col-12}
@@ -186,36 +141,9 @@ Quarto includes native support for Observable JS, a set of JavaScript enhancemen
 
 ::: grid
 ::: {.g-col-lg-6 .g-col-12}
-```` markdown
----
-title: "observable plot"
-author: "Norah Jones"
-format: 
-  html: 
-    code-fold: true
----
 
-## Seattle Precipitation by Day (2012 to 2016)
+Aquí va algo de texto
 
-```{{ojs}}
-data = FileAttachment("seattle-weather.csv")
-  .csv({typed: true})
-  
-Plot.plot({
-  width: 800, height: 500, padding: 0,
-  color: { scheme: "blues", type: "sqrt"},
-  y: { tickFormat: i => "JFMAMJJASOND"[i] },
-  marks: [
-    Plot.cell(data, Plot.group({fill: "mean"}, {
-      x: d => d.date.getUTCDate(),
-      y: d => d.date.getUTCMonth(),
-      fill: "precipitation", 
-      inset: 0.5
-    }))
-  ]
-})
-```
-````
 :::
 
 ::: {.hello-output .g-col-lg-6 .g-col-12}
@@ -233,7 +161,7 @@ Plot.plot({
 ::: content-block
 ::: features
 ::: feature
-### Dynamic Documents
+### About me
 
 Generate dynamic output using Python, R, Julia, and Observable. Create reproducible documents that can be regenerated when underlying assumptions or data change.
 
