@@ -2,8 +2,15 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "JJMM",
     "section": "",
-    "text": "About this site"
+    "text": "Hi friends!\nMy name is José Julián Mendoza Martínez (long name, I´m Mexican). I was born in Xochimilco,"
+  },
+  {
+    "objectID": "work.html",
+    "href": "work.html",
+    "title": "JJMM",
+    "section": "",
+    "text": "Cal y Mayor y Asociados S.C.\n09/2020 - 07/2022\n\nActivity 1\nActivity 2\nActivity 3\n\n\n\n\nCal y Mayor y Asociados S.C.\n07/2015 - 08/2019\n\nActivity 1\nActivity 2\nActivity 3\n\n\n\n\nProdemex\n10/2014 - 03/2015\n\nActivity 1\nActivity 2\nActivity 3\n\n\n\n\nInstituto de Ingeniería, UNAM\n03/2015 - 06/2015\n\nActivity 1\nActivity 2\nActivity 3"
   }
 ]
