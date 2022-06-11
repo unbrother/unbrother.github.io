@@ -1,0 +1,25 @@
+---
+pagetitle: "Education"
+format: html
+aliases: 
+  - /docs/education/
+---
+
+# Education
+
+```{r, echo = FALSE}
+library(vistime)
+library(ggplot2)
+tline_work <- data.frame(Position = c("Work", "Education", "Work", "Work", "Work", "Education", "Education"),
+                   Name = c("Sr. Consultant", "MSc", "Jr. Consultant", "Assistant Site Sup.", "Internship", "Specialty", "BSc Civil Engineering"),
+                   start = c("2020-09-01", "2019-09-20", "2015-07-06", "2014-10-01", "2015-03-01", "2014-08-01", "2008-08-20"),
+                   end = c("2022-06-23", "2020-09-18", "2019-08-31", "2015-03-01", "2015-06-20", "2015-05-20", "2014-05-20"),
+                   color = c("grey", '#FFDDDB', 'grey', 'grey', 'grey', '#FFDDDB', '#FFDDDB'),
+                   fontcolor = c("#806F6E", "#A9BDD2", "#806F6E", "#806F6E", "#806F6E", "#A9BDD2", "#A9BDD2"))
+                  
+gg_vistime(tline_work, col.event = "Name", title = "Education history timeline", optimize_y = F, linewidth = 20) +
+  theme(axis.text.x = element_text(angle=90)) +
+  labs(caption = "Grey means working periods") +
+  theme_minimal()
+```
+
