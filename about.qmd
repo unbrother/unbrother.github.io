@@ -1,11 +1,8 @@
 ---
 pagetitle: "About"
-<<<<<<< HEAD
 format: html
 aliases: 
   - /docs/about/
-=======
->>>>>>> 08fcc51436c28239922c5640462b663c18f86f94
 ---
 
 # About me

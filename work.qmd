@@ -1,16 +1,12 @@
 ---
 pagetitle: "Work"
-<<<<<<< HEAD
 format: html
 aliases: 
   - /docs/work/
-=======
->>>>>>> 08fcc51436c28239922c5640462b663c18f86f94
 ---
 
 # Work history
 
-<<<<<<< HEAD
 ```{r, echo = FALSE}
 library(vistime)
 library(ggplot2)
@@ -28,8 +24,6 @@ gg_vistime(tline_work, col.event = "Name", title = "Work history timeline", opti
 ```
  
 
-=======
->>>>>>> 08fcc51436c28239922c5640462b663c18f86f94
 ### Sr. Consultant
 
 **Cal y Mayor y Asociados S.C.**
