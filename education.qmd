@@ -1,10 +1,15 @@
 ---
+<<<<<<< HEAD
 pagetitle: "Education"
+=======
+title: "Education"
+>>>>>>> 08fcc51436c28239922c5640462b663c18f86f94
 format: html
 aliases: 
   - /docs/education/
 ---
 
+<<<<<<< HEAD
 # Education
 
 ```{r, echo = FALSE}
@@ -23,3 +28,6 @@ gg_vistime(tline_work, col.event = "Name", title = "Education history timeline",
   theme_minimal()
 ```
 
+=======
+# Hola
+>>>>>>> 08fcc51436c28239922c5640462b663c18f86f94
